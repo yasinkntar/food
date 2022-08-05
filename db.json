@@ -1,239 +1,739 @@
-{
-	"accounts": [
-		{
-			"holder_id": "00urnvcim4XBcSTRC0h7",
-			"holder_email": "atarg@foo.com",
-			"type": "Savings Account",
-			"holder": "Aegon Targaryen",
-			"balance": 32000,
-			"currency": "EUR",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB015000001234561699",
-			"status": "active",
-			"opened": "20180229"
-		},
-		{
-			"holder_id": "00urnvcim4XBcSTRC0h7",
-			"holder_email": "atarg@foo.com",
-			"type": "Savings Account",
-			"holder": "A. Targaryen",
-			"balance": 32000,
-			"currency": "GBP",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB015000001234561699",
-			"status": "active",
-			"opened": "20180218"
-		},
-		{
-			"holder_id": "00urnv0s97hiSAvwH0h7",
-			"holder_email": "bstark@foo.com",
-			"type": "Savings Account",
-			"holder": "Brandon Stark",
-			"balance": 32000,
-			"currency": "USD",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB015000001234561699",
-			"status": "active",
-			"opened": "20180229"
-		},
-		{
-			"holder_id": "00urnv0s97hiSAvwH0h7",
-			"holder_email": "bstark@foo.com",
-			"type": "Savings Account",
-			"holder": "B. Stark",
-			"balance": 32000,
-			"currency": "CZK",
-			"icon": "Kč",
-			"routing": "iban",
-			"iban": "CB015000001234561699",
-			"status": "active",
-			"opened": "20180218"
-		},
-		{
-			"holder_id": "00urnv0s97hiSAvwH0h7",
-			"holder_email": "bstark@foo.com",
-			"type": "Current Account",
-			"holder": "Brandon Stark",
-			"balance": 4500,
-			"currency": "EUR",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB014000001234779737",
-			"status": "active",
-			"opened": "20180218"
-		},
-		{
-			"holder_id": "00urnv0s97hiSAvwH0h7",
-			"holder_email": "bstark@foo.com",
-			"type": "Prepaid Card",
-			"holder": "B. Stark",
-			"balance": 4500,
-			"currency": "EUR",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB014000001234774555",
-			"status": "active",
-			"opened": "20180107"
-		},
-		{
-			"holder_id": "00up819zaxZ8iKyFq0h7",
-			"type": "Savings Account",
-			"holder": "Visenya Targaryen",
-			"balance": 32000,
-			"currency": "GBP",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB015000001234879054",
-			"status": "active",
-			"opened": "20180218"
-		},
-		{
-			"holder_id": "00up819zaxZ8iKyFq0h7",
-			"type": "Debit Card",
-			"holder": "V. Targaryen",
-			"balance": 4500,
-			"currency": "EUR",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB014000001234234551",
-			"status": "active",
-			"opened": "20180106"
-		},
-		{
-			"holder_id": "00up819zaxZ8iKyFq0h7",
-			"type": "Current Account",
-			"holder": "Visenya Targaryen",
-			"balance": 4500,
-			"currency": "EUR",
-			"icon": "",
-			"routing": "iban",
-			"iban": "CB014000001234234532",
-			"status": "active",
-			"opened": "20180218"
-		}
-	],
-	"cards": [
-		{
-			"holder_id": "00urnvcim4XBcSTRC0h7",
-			"holder_email": "atarg@foo.com",
-			"type": "Credit Card",
-			"holder": "Aegon Targaryen",
-			"balance": 2130.25,
-			"limit": 15000,
-			"currency": "EUR",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/blue_poly.png",
-			"pan": "5000001234561699",
-			"brand": "MC",
-			"status": "active",
-			"expires": "20220229"
-		},
-		{
-			"holder_id": "00urnvcim4XBcSTRC0h7",
-			"holder_email": "atarg@foo.com",
-			"type": "Credit Card",
-			"holder": "A. Targaryen",
-			"balance": 4284.61,
-			"limit": 8000,
-			"currency": "GBP",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/red_poly.png",
-			"pan": "5000001234561699",
-			"brand": "MC",
-			"status": "active",
-			"expires": "20220218"
-		},
-		{
-			"holder_id": "00up81anrmtyah4i70h7",
-			"type": "Credit Card",
-			"holder": "Visenya Targaryen",
-			"balance": 190,
-			"limit": 2500,
-			"currency": "USD",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/blue_poly.png",
-			"pan": "5000001234561699",
-			"brand": "MC",
-			"status": "active",
-			"expires": "20220229"
-		},
-		{
-			"holder_id": "00up81anrmtyah4i70h7",
-			"type": "Credit Card",
-			"holder": "V. Targaryen",
-			"balance": 31084.61,
-			"limit": 100000,
-			"currency": "CZK",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/green_gradient.png",
-			"pan": "5000001234561699",
-			"brand": "MC",
-			"status": "blocked",
-			"expires": "20220218"
-		},
-		{
-			"holder_id": "00up81anrmtyah4i70h7",
-			"type": "Business Credit Card",
-			"holder": "Visenya Targaryen",
-			"balance": 125.78,
-			"limit": 2500,
-			"currency": "EUR",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/magenta_lines.png",
-			"pan": "4000001234779737",
-			"brand": "Visa",
-			"status": "active",
-			"expires": "20220218"
-		},
-		{
-			"holder_id": "00up81anrmtyah4i70h7",
-			"type": "Prepaid Card",
-			"holder": "V. Targaryen",
-			"balance": 0,
-			"limit": 200,
-			"currency": "EUR",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/blue_poly.png",
-			"pan": "4000001234774555",
-			"brand": "Visa",
-			"status": "active",
-			"expires": "20220107"
-		},
-		{
-			"holder_id": "00up819zaxZ8iKyFq0h7",
-			"type": "Credit Card",
-			"holder": "Orys Baratheon",
-			"balance": 1203.61,
-			"limit": 7000,
-			"currency": "GBP",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/red_poly.png",
-			"pan": "5000001234879054",
-			"brand": "MC",
-			"status": "active",
-			"expires": "20220218"
-		},
-		{
-			"holder_id": "00up819zaxZ8iKyFq0h7",
-			"type": "Debit Card",
-			"holder": "Orys Baratheon",
-			"balance": 805.25,
-			"limit": 6000,
-			"currency": "EUR",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/rows_of_berries.png",
-			"pan": "4000001234234551",
-			"brand": "Visa",
-			"status": "expired",
-			"expires": "20200106"
-		},
-		{
-			"holder_id": "00up819zaxZ8iKyFq0h7",
-			"type": "Business Credit Card",
-			"holder": "O. Baratheon",
-			"balance": 2530.15,
-			"limit": 12000,
-			"currency": "EUR",
-			"plastic": "https://quantum-demos1.s3.eu-central-1.amazonaws.com/CardsCarousel/blue_poly.png",
-			"pan": "4000001234234532",
-			"brand": "Visa",
-			"status": "active",
-			"expires": "20220218"
-		}
-	]
-}
+[
+  {
+    "id": 1,
+    "name": "Americano",
+    "slug": "americano",
+    "description": "Italian espresso gets the American treatment; hot water fills the cup for a rich alternative to drip coffee.\nMade from water and espresso.",
+    "price": 120,
+    "image": "https://images.justjava.store/products/coffee/americano.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605132",
+    "choices": [
+      {
+        "id": 1,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 1,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 2,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 3,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 4,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 5,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 6,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 7,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 8,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "slug": "cappuccino",
+    "description": "A single, perfectly extracted shot of espresso is marbled with freshly steamed milk to create this coffeehouse staple.\nMade from foam, milk and espresso.",
+    "price": 150,
+    "image": "https://images.justjava.store/products/coffee/cappuccino.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605138",
+    "choices": [
+      {
+        "id": 3,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 9,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 10,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 11,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Type of milk",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 12,
+            "name": "Skim milk",
+            "description": null,
+            "price": 20
+          },
+          {
+            "id": 13,
+            "name": "Soy milk",
+            "description": null,
+            "price": 20
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 14,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 15,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 16,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 17,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 18,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Espresso",
+    "slug": "espresso",
+    "description": "Our beans are deep roasted, our shots hand-pulled. Taste the finest, freshly ground espresso shot in town.\nJust a shot of espresso.",
+    "price": 100,
+    "image": "https://images.justjava.store/products/coffee/espresso.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605142",
+    "choices": [
+      {
+        "id": 6,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 19,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 20,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 21,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 22,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 23,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 24,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 25,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 26,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Macchiato",
+    "slug": "macchiato",
+    "description": "What could top a hand-pulled shot of our richest, freshest espresso? A dollop of perfectly steamed foam. Made from foam and espresso.",
+    "price": 150,
+    "image": "https://images.justjava.store/products/coffee/macchiato.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605147",
+    "choices": [
+      {
+        "id": 8,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 27,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 28,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 29,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 30,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 31,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 32,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 33,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 34,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mocha",
+    "slug": "mocha",
+    "description": "A marriage made in heaven. Espresso, steamed milk and our finest Dutch Cocoa. Whipped cream officiates.\nMade from milk, chocolate syrup and espresso",
+    "price": 150,
+    "image": "https://images.justjava.store/products/coffee/mocha.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605151",
+    "choices": [
+      {
+        "id": 10,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 35,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 36,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 37,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Type of milk",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 38,
+            "name": "Skim milk",
+            "description": null,
+            "price": 20
+          },
+          {
+            "id": 39,
+            "name": "Soy milk",
+            "description": null,
+            "price": 20
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 40,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 41,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 42,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 43,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 44,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Latte",
+    "slug": "latte",
+    "description": "This coffee house favorite adds silky steamed milk to shots of rich espresso, finished with a layer of foam.\nMade from milk and espresso.",
+    "price": 150,
+    "image": "https://images.justjava.store/products/coffee/latte.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605155",
+    "choices": [
+      {
+        "id": 13,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 45,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 46,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 47,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Type of milk",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 48,
+            "name": "Skim milk",
+            "description": null,
+            "price": 20
+          },
+          {
+            "id": 49,
+            "name": "Soy milk",
+            "description": null,
+            "price": 20
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 50,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 51,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 52,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 53,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 54,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Iced Coffee",
+    "slug": "iced-coffee",
+    "description": "Rich espresso, sweetened condensed milk, and cold milk poured over ice.\nMade from milk, espresso and ice.",
+    "price": 170,
+    "image": "https://images.justjava.store/products/coffee/iced-coffee.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605160",
+    "choices": [
+      {
+        "id": 16,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 55,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 56,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 57,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Type of milk",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 58,
+            "name": "Skim milk",
+            "description": null,
+            "price": 20
+          },
+          {
+            "id": 59,
+            "name": "Soy milk",
+            "description": null,
+            "price": 20
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 60,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 61,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 62,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 63,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 64,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cafe frappe",
+    "slug": "cafe-frappe",
+    "description": "Rich espresso is pulled then poured over ice cream for true refreshment. Topped with whipped cream.\nMade from ice cream, espresso and whipped cream.",
+    "price": 180,
+    "image": "https://images.justjava.store/products/coffee/cafe-frappe.jpg",
+    "type": "coffee",
+    "status": "enabled",
+    "createdAt": "1574605164",
+    "choices": [
+      {
+        "id": 19,
+        "name": "Single, double or triple",
+        "position": 0,
+        "qtyMin": 1,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 65,
+            "name": "Triple",
+            "description": "Three shots of coffee",
+            "price": 80
+          },
+          {
+            "id": 66,
+            "name": "Double",
+            "description": "Two shots of coffee",
+            "price": 40
+          },
+          {
+            "id": 67,
+            "name": "Single",
+            "description": "A single shot of coffee",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Type of milk",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": 1,
+        "options": [
+          {
+            "id": 68,
+            "name": "Skim milk",
+            "description": null,
+            "price": 20
+          },
+          {
+            "id": 69,
+            "name": "Soy milk",
+            "description": null,
+            "price": 20
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Toppings",
+        "position": 0,
+        "qtyMin": 0,
+        "qtyMax": -1,
+        "options": [
+          {
+            "id": 70,
+            "name": "Mini marshmallows",
+            "description": null,
+            "price": 60
+          },
+          {
+            "id": 71,
+            "name": "Mint",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 72,
+            "name": "Nutmeg (powdered)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 73,
+            "name": "Chocolate (curls)",
+            "description": null,
+            "price": 30
+          },
+          {
+            "id": 74,
+            "name": "Cinnamon (sprinkles)",
+            "description": null,
+            "price": 30
+          }
+        ]
+      }
+    ]
+  }
+]
